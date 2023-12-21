@@ -116,7 +116,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/project/sandbox/src/db/client",
+      "value": "/Users/kdy1/projects/repro-next-56144/src/db/client",
       "fromEnvVar": null
     },
     "config": {
@@ -125,7 +125,7 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "debian-openssl-1.1.x",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
@@ -190,8 +190,8 @@ exports.PrismaClient = PrismaClient
 Object.assign(exports, Prisma)
 
 // file annotations for bundling tools to include these files
-path.join(__dirname, "query-engine-debian-openssl-1.1.x");
-path.join(process.cwd(), "src/db/client/query-engine-debian-openssl-1.1.x")
+path.join(__dirname, "query-engine-darwin-arm64");
+path.join(process.cwd(), "src/db/client/query-engine-darwin-arm64")
 // file annotations for bundling tools to include these files
 path.join(__dirname, "schema.prisma");
 path.join(process.cwd(), "src/db/client/schema.prisma")

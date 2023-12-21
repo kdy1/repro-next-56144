@@ -115,7 +115,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/project/sandbox/src/db/client",
+      "value": "/Users/kdy1/projects/repro-next-56144/src/db/client",
       "fromEnvVar": null
     },
     "config": {
@@ -124,7 +124,7 @@ const config = {
     "binaryTargets": [
       {
         "fromEnvVar": null,
-        "value": "debian-openssl-1.1.x",
+        "value": "darwin-arm64",
         "native": true
       }
     ],
