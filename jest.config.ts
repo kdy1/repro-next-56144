@@ -11,4 +11,5 @@ export default createJestConfig({
   moduleNameMapper: pathsToModuleNameMapper(tsConfig.compilerOptions.paths, {
     prefix: "<rootDir>/src",
   }),
+  cache:false
 });
